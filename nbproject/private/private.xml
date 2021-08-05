@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/anous/Desktop/app1.0/Nouveau%20dossier/Gestion__Livrason1.0/Gestion__Livrason1.0/src/GUI/FXMLajouteruser.fxml</file>
+            <file>file:/C:/Users/anous/Desktop/app1.0/Nouveau%20dossier/Gestion__Livrason1.0/Gestion__Livrason1.0/src/GUI/FXMLListeClientsController.java</file>
+            <file>file:/C:/Users/anous/Desktop/app1.0/Nouveau%20dossier/Gestion__Livrason1.0/Gestion__Livrason1.0/src/GUI/FXMLCherchLivraison.fxml</file>
+            <file>file:/C:/Users/anous/Desktop/app1.0/Nouveau%20dossier/Gestion__Livrason1.0/Gestion__Livrason1.0/src/service/UserService.java</file>
+            <file>file:/C:/Users/anous/Desktop/app1.0/Nouveau%20dossier/Gestion__Livrason1.0/Gestion__Livrason1.0/src/GUI/FXMLAjouterLivraisonController.java</file>
+            <file>file:/C:/Users/anous/Desktop/app1.0/Nouveau%20dossier/Gestion__Livrason1.0/Gestion__Livrason1.0/src/service/MapClientLivraison.java</file>
+            <file>file:/C:/Users/anous/Desktop/app1.0/Nouveau%20dossier/Gestion__Livrason1.0/Gestion__Livrason1.0/src/GUI/FXMLloginController.java</file>
+            <file>file:/C:/Users/anous/Desktop/app1.0/Nouveau%20dossier/Gestion__Livrason1.0/Gestion__Livrason1.0/src/service/ListLivraison.java</file>
+            <file>file:/C:/Users/anous/Desktop/app1.0/Nouveau%20dossier/Gestion__Livrason1.0/Gestion__Livrason1.0/src/entite/Client.java</file>
+            <file>file:/C:/Users/anous/Desktop/app1.0/Nouveau%20dossier/Gestion__Livrason1.0/Gestion__Livrason1.0/src/GUI/FXMLajouteruserController.java</file>
+            <file>file:/C:/Users/anous/Desktop/app1.0/Nouveau%20dossier/Gestion__Livrason1.0/Gestion__Livrason1.0/src/GUI/FXMLAceuilPageController.java</file>
+            <file>file:/C:/Users/anous/Desktop/app1.0/Nouveau%20dossier/Gestion__Livrason1.0/Gestion__Livrason1.0/src/Interface/Interfaceuser.java</file>
+            <file>file:/C:/Users/anous/Desktop/app1.0/Nouveau%20dossier/Gestion__Livrason1.0/Gestion__Livrason1.0/src/service/ListClient.java</file>
+            <file>file:/C:/Users/anous/Desktop/app1.0/Nouveau%20dossier/Gestion__Livrason1.0/Gestion__Livrason1.0/src/entite/User.java</file>
+            <file>file:/C:/Users/anous/Desktop/app1.0/Nouveau%20dossier/Gestion__Livrason1.0/Gestion__Livrason1.0/src/GUI/FXMLListesLivraisonsController.java</file>
+            <file>file:/C:/Users/anous/Desktop/app1.0/Nouveau%20dossier/Gestion__Livrason1.0/Gestion__Livrason1.0/src/GUI/FXMLCherchLivraisonController.java</file>
+            <file>file:/C:/Users/anous/Desktop/app1.0/Nouveau%20dossier/Gestion__Livrason1.0/Gestion__Livrason1.0/src/service/ClientService.java</file>
+            <file>file:/C:/Users/anous/Desktop/app1.0/Nouveau%20dossier/Gestion__Livrason1.0/Gestion__Livrason1.0/src/GUI/FXMLAjouterClientController.java</file>
+            <file>file:/C:/Users/anous/Desktop/app1.0/Nouveau%20dossier/Gestion__Livrason1.0/Gestion__Livrason1.0/src/entite/Livraison.java</file>
+            <file>file:/C:/Users/anous/Desktop/app1.0/Nouveau%20dossier/Gestion__Livrason1.0/Gestion__Livrason1.0/src/GUI/FXMLchercheClientController.java</file>
+            <file>file:/C:/Users/anous/Desktop/app1.0/Nouveau%20dossier/Gestion__Livrason1.0/Gestion__Livrason1.0/src/gestion_de_livraison/Gestion_de_livraison.java</file>
+            <file>file:/C:/Users/anous/Desktop/app1.0/Nouveau%20dossier/Gestion__Livrason1.0/Gestion__Livrason1.0/src/service/LivraisonService.java</file>
+        </group>
+    </open-files>
+</project-private>

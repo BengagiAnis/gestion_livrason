@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.FXMLAceuilPageController">
+   <children>
+      <MenuBar layoutX="66.0" layoutY="14.0">
+        <menus>
+            <Menu mnemonicParsing="false" text="Acceuil">
+              <items>
+                <MenuItem mnemonicParsing="false" onAction="#quiter" text="Exit" />
+                  <MenuItem fx:id="txtajout" mnemonicParsing="false" onAction="#ajouteruser" text="Ajouter user" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Client">
+              <items>
+                  <MenuItem fx:id="btnajouter" mnemonicParsing="false" onAction="#ajouterClient" text="Ajouter " />
+                  <MenuItem fx:id="btncherch" mnemonicParsing="false" onAction="#pageChercher" text="Chercher" />
+                <MenuItem fx:id="listPage" mnemonicParsing="false" onAction="#afficheListeClient" text="Liste Client" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Livraison">
+              <items>
+                <MenuItem fx:id="ajouterLivraison" mnemonicParsing="false" onAction="#pageAjoutLivraison" text="Ajouter" />
+                  <MenuItem fx:id="consultlivraison" mnemonicParsing="false" onAction="#afficherLivrason" text="Liste Livraison" />
+                  <MenuItem fx:id="chercherliv" mnemonicParsing="false" onAction="#chercherLivraison" text="Chercher" />
+              </items>
+            </Menu>
+        </menus>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </MenuBar>
+      <Text fill="#077bd3" layoutX="115.0" layoutY="124.0" strokeWidth="0.0" text="BIENVUENUE DANS L'ESPACE GESTION CLIENT" textAlignment="CENTER" wrappingWidth="249.43359375">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#14a0f2" height="401.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+      <Line endX="131.0" layoutX="176.0" layoutY="39.0" startX="-110.0" stroke="#0dc8f2" strokeWidth="5.0" />
+      <Line endX="100.0" layoutX="250.0" layoutY="171.0" startX="-100.0" stroke="#0dc8f2" strokeWidth="5.0" />
+      <Line endX="111.0" layoutX="489.0" layoutY="398.0" startX="-163.0" stroke="#0dc8f2" strokeWidth="5.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.FXMLloginController">
+   <children>
+      <Label layoutX="177.0" layoutY="85.0" text="Login" textFill="#06acee">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+      <Label layoutX="176.0" layoutY="177.0" text="Password" textFill="#08a1ee">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <TextField fx:id="txtauthentification" layoutX="293.0" layoutY="86.0" />
+      <Button fx:id="btnauthentification" layoutX="293.0" layoutY="263.0" mnemonicParsing="false" onAction="#Connecter" text="Entrer" textFill="#109ae0">
+         <font>
+            <Font size="14.0" />
+         </font></Button>
+      <Text fx:id="erreur" layoutX="107.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Merci de verifier votre login et mot de passe" visible="false" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#21c8ff" height="400.0" layoutY="-1.0" stroke="BLACK" strokeType="INSIDE" width="73.0" />
+      <ImageView fitHeight="52.0" fitWidth="63.0" layoutX="125.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../ressource/login.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="58.0" fitWidth="50.0" layoutX="126.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../ressource/pass.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="38.0" fitWidth="55.0" layoutX="349.0" layoutY="259.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../ressource/connect.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1fc2ff" height="418.0" layoutX="568.0" layoutY="-9.0" stroke="BLACK" strokeType="INSIDE" width="32.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1fc2ff" height="11.0" layoutY="399.0" stroke="BLACK" strokeType="INSIDE" width="601.0" />
+      <PasswordField fx:id="txtpasse" layoutX="293.0" layoutY="178.0" />
+     
+   </children>
+</AnchorPane>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.FXMLAjouterLivraisonController">
+   <children>
+      <Label layoutX="144.0" layoutY="25.0" text="Ajouter une nouvelle Livraison" />
+      <Label layoutX="23.0" layoutY="82.0" text="Produit" />
+      <TextField fx:id="txtNomProduit" layoutX="125.0" layoutY="78.0" />
+      <TextField fx:id="txtQuantite" layoutX="125.0" layoutY="141.0" />
+      <TextField fx:id="txtPrix" layoutX="125.0" layoutY="200.0" />
+      <TextField fx:id="txtDate" layoutX="125.0" layoutY="264.0" />
+      <ComboBox fx:id="comboboxclient" layoutX="115.0" layoutY="330.0" onAction="#afficherListClient" prefHeight="25.0" prefWidth="160.0" promptText="Selectionner un client" />
+      <Label layoutX="19.0" layoutY="145.0" text="Quantite" />
+      <Label layoutX="19.0" layoutY="204.0" text="Prixl" />
+      <Label layoutX="17.0" layoutY="268.0" text="Date" />
+      <Label layoutX="17.0" layoutY="334.0" text="Client" />
+      <Button fx:id="btnNouveauClient" layoutX="278.0" layoutY="330.0" mnemonicParsing="false" onAction="#ajouterNouveauClient" text="Nouveau" />
+      <Button fx:id="btnAjouterLivraison" layoutX="300.0" layoutY="264.0" mnemonicParsing="false" onAction="#AjouterLivraison" prefHeight="25.0" prefWidth="149.0" text="Ajouter la livraison" />
+      <Label fx:id="labelajoutlivrason" layoutX="63.0" layoutY="49.0" prefHeight="17.0" prefWidth="362.0" text="Livrason Bien Ajouter vous Pouvez Ajouter d'autre" textFill="#1cda7b" visible="false" />
+      <Button fx:id="btnAceuil1" layoutX="511.0" layoutY="2.0" mnemonicParsing="false" onAction="#retourAceuil" text="Aceuil" />
+   </children>
+</AnchorPane>
